@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narendra's Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            background: #f39c12;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #e67e22;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Narendra's Links</h1>
+    <div class="buttons">
+        <a href="YOUR_RESUME_LINK_HERE" class="btn" target="_blank">📄 Narendra Resume</a>
+        <a href="YOUR_PORTFOLIO_LINK_HERE" class="btn" target="_blank">🌐 Narendra Portfolio</a>
+        <a href="https://www.linkedin.com/in/narendra-chodipalli" class="btn" target="_blank">🔗 Narendra LinkedIn</a>
+    </div>
+</body>
+</html>
 
